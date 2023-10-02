@@ -23,7 +23,7 @@
    DAISI-VQA: in total 346 surgical images and 469 QA pairs in the dataset. 80% of the data is used in the training set, while the rest 20% is used in the testing set.
 
 ## Environment & Setup
-* See the “Environment and Preparation” section of our [Tutorial in Jupyter Notebook](code).
+* See the “Environment and Preparation” section of our [Tutorial in Jupyter Notebook](code/t2.ipynb).
   
 ## Training
 * We train the model under a continual learning (CL) framework.
@@ -34,7 +34,7 @@
 
 * Finally, in time slot #3, we train the model with DAISI-VQA. To save your time, you can first load the model obtained in Step 2 and then start the training.
 
-* For details about the training process in time slot #2, please see the "Calculation" section and the "Training" section in our [code for time slot #2](code); For details about the training process in time slot #3, please see the "Calculation" section and the "Training" section in our [code for time slot #3](code).
+* For details about the training process in time slot #2, please see the "Calculation" section and the "Training" section in our [code for time slot #2](code/t2.ipynb); For details about the training process in time slot #3, please see the "Calculation" section and the "Training" section in our [code for time slot #3](code/t3.ipynb).
 
 ## Testing
 * After the training in time slot #1, we test the model on EndoVis17.
@@ -43,7 +43,7 @@
 
 * After the training in time slot #3, we test the model on EndoVis17 EndoVis18, and DAISI-VQA to see if the new model forgets the knowledge in EndoVis17 and EndoVis18.
 
-* For details about the testing  process in time slot #2, please see the "Testing" section in our [code for time slot #2](code); For details about the testing process in time slot #3, please see the "Testing" section in our [code for time slot #3](code).
+* For details about the testing  process in time slot #2, please see the "Testing" section in our [code for time slot #2](code/t2.ipynb); For details about the testing process in time slot #3, please see the "Testing" section in our [code for time slot #3](code/t3.ipynb).
 
 ## Citation
 If this repository is useful for your research, please cite:
