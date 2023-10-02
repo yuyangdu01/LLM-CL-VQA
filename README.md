@@ -22,10 +22,6 @@
   
    DAISI-VQA: in total 346 surgical images and 469 QA pairs in the dataset. 80% of the data is used in the training set, while the rest 20% is used in the testing set.
 
-* The structure of the data folder
-
-  Coming soon.
-
 ## Environment & Setup
 * See the “Environment and Preparation” section of our [Tutorial in Jupyter Notebook](code).
   
