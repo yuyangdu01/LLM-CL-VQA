@@ -60,4 +60,4 @@ If this repository is useful for your research, please cite:
 }
 ```
 ### Questions
-For further questions about the code or paper, please contact 'kexinchen0526@gmail.com'
+For further questions about the code or paper, please contact 'duyuyang01@gmail.com'
