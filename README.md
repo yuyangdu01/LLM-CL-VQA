@@ -28,7 +28,7 @@
 ## Training
 * We train the model under a continual learning (CL) framework.
 
-* In time slot #1, we train the model with EndoVis17 dataset.
+* In time slot #1, we train the model with EndoVis17 dataset. Since our paper focuses on continual learning, we do need to repeat the conventional training process every time. So a fixed checkpoint for time slot #1 is given in our checkpoint folder. You can just just load the checkpoint to skip the training in time slot #1.
 
 * Then in time slot #2, we train the model with EndoVis18 dataset.
 
