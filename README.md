@@ -28,11 +28,11 @@
 ## Training
 * We train the model under a continual learning (CL) framework.
 
-* In time slot #1, we train the model with EndoVis17 dataset. Since our paper focuses on continual learning, we do need to repeat the conventional training process every time. So a fixed checkpoint for time slot #1 is avaliable here [here](https://drive.google.com/file/d/141XuZD7ZZi_oCl6bq3t04MRsjuyFRYJ2/view?usp=sharing). You can just just load the checkpoint to skip the training in time slot #1.
+* Step 1: In time slot #1, we train the model with EndoVis17 dataset. Since our paper focuses on continual learning, we do need to repeat the conventional training process every time. [The model trained with EndoVis17 in time slot #1](https://drive.google.com/file/d/141XuZD7ZZi_oCl6bq3t04MRsjuyFRYJ2/view?usp=sharing) is given to save your time.
+  
+* Then in time slot #2, we train the model with EndoVis18. To save your time, you can first load the model obtained in Step 1 and then start the training. [The resulting model in time slot #2](https://drive.google.com/file/d/1WL8EYu0x4ksKleQ9oSE5nqjBsGL4li6u/view?usp=sharing) is also given for your reference.
 
-* Then in time slot #2, we train the model with EndoVis18 dataset.
-
-* Finally, in time slot #3, we train the model with DAISI-VQA dataset.
+* Finally, in time slot #3, we train the model with DAISI-VQA. To save your time, you can first load the model obtained in Step 2 and then start the training.
 
 * For details about the training process in time slots #1 and #2, please see our tutorial [here](code); For details about the training process in time slot #3, please see our tutorial [here](code).
 
@@ -43,7 +43,7 @@
 
 * After the training in time slot #3, we test the model on EndoVis17 EndoVis18, and DAISI-VQA to see if the new model forgets the knowledge in EndoVis17 and EndoVis18.
 
-* For details about the testing  process in time slots #1 and #2, please see our tutorial [here](code); For details about the testing process in time slot #3, please see our tutorial [here](code).
+* For details about the testing  process in time slots #2, please see our tutorial [here](code); For details about the testing process in time slot #3, please see our tutorial [here](code).
 
 ## Citation
 If this repository is useful for your research, please cite:
