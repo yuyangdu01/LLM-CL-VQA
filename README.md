@@ -34,7 +34,7 @@
 
 * Finally, in time slot #3, we train the model with DAISI-VQA dataset.
 
-* For details about the training process, please refer to [Tutorial in Jupyter Notebook Tutorial](code).
+* For details about the training process in time slots #1 and #2, please see our tutorial [here](code).; For details about the training process in time slot #3, please see our tutorial [here](code)..
 
 ## Testing
 * After the training in time slot #1, we test the model on EndoVis17.
@@ -43,7 +43,7 @@
 
 * After the training in time slot #3, we test the model on EndoVis17 EndoVis18, and DAISI-VQA to see if the new model forgets the knowledge in EndoVis17 and EndoVis18.
 
-* For details about the training process, please refer to [Tutorial in Jupyter Notebook Tutorial](code).
+* For details about the testing  process in time slots #1 and #2, please see our tutorial [here](code).; For details about the testing process in time slot #3, please see our tutorial [here](code).
 
 ## Citation
 If this repository is useful for your research, please cite:
