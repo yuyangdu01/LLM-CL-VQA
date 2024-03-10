@@ -1,14 +1,14 @@
 # LLM-Assisted Multi-Teacher Continual Learning for Visual Question Answering in Robotic Surgery
 
 ## Introduction
-* The Pytorch implementation for our paper '[LLM-Assisted Multi-Teacher Continual Learning for Visual Question Answering in Robotic Surgery](https://arxiv.org/abs/xxxx.xxxxx)', submitted to ICRA 2024.
+* The Pytorch implementation for our paper '[LLM-Assisted Multi-Teacher Continual Learning for Visual Question Answering in Robotic Surgery](https://arxiv.org/abs/2402.16664)', accepted by IEEE ICRA 2024.
 
 <p align="center">
   <img src="Figure/system.png"  width="1000"/>
 </p>
 
 ## Data Preparation
-* We use the dataset [EndoVis17](https://arxiv.org/abs/2305.11692), [EndoVis18](https://arxiv.org/abs/2206.11053), and [DAISI-VQA](DAISI_VQA). Note that DAISI-VQA is a new VQA dataset we build upon  [DAISI](https://arxiv.org/abs/2004.02809)
+* For datasets, we use [EndoVis17](https://arxiv.org/abs/2305.11692), [EndoVis18](https://arxiv.org/abs/2206.11053), and [DAISI-VQA](DAISI_VQA). Note that DAISI-VQA is a new VQA dataset we build upon  [DAISI](https://arxiv.org/abs/2004.02809)
 
 * How we constructed the DAISI-VQA dataset:
 
@@ -16,11 +16,11 @@
 
 * Training and test data split
 
-   EndoVis17: a VQA dataset obtained from 5 surgical videos. We use 73 frames (with 376 QA pairs) in the training set and 24 frames (with 96 QA pairs) in the  testing set.
+   EndoVis17: a VQA dataset obtained from 5 surgical videos. We use 376 QA pairs in the training set and 96 QA pairs in the testing set.
   
-   EndoVis18: a VQA dataset obtained from 14 surgical videos. We use 1560 frames (with 376 9014 pairs) in the training set and 447 frames (with 2769 QA pairs) in the testing set.
+   EndoVis18: a VQA dataset obtained from 14 surgical videos. We use 9014 QA pairs in the training set and 2769 QA pairs in the testing set.
   
-   DAISI-VQA: in total 346 surgical images and 469 QA pairs in the dataset. 80% of the data is used in the training set, while the rest 20% is used in the testing set.
+   DAISI-VQA: in total 545 QA pairs in the dataset. 80% of the data is used in the training set, while the rest 20% is used in the testing set.
 
 ## Environment & Setup
 * See the “Environment and Preparation” section of our [Tutorial in Jupyter Notebook](code/t2.ipynb).
@@ -28,13 +28,11 @@
 ## Training
 * We train the model under a continual learning (CL) framework.
 
-* Step 1: In time slot #1, we train the model with EndoVis17 dataset. Since our paper focuses on continual learning, we do need to repeat the conventional training process every time. [The model trained in time slot #1](https://drive.google.com/file/d/141XuZD7ZZi_oCl6bq3t04MRsjuyFRYJ2/view?usp=sharing) is given to save your time.
+* Step 1: In time slot #1, we train the model with EndoVis17 dataset.
   
-* Then in time slot #2, we train the model with EndoVis18. To save your time, you can first load the model obtained in Step 1 and then start the training. [The resulting model in time slot #2](https://drive.google.com/file/d/1WL8EYu0x4ksKleQ9oSE5nqjBsGL4li6u/view?usp=sharing) is also given for your reference.
+* Then in time slot #2, we train the model with EndoVis18.
 
-* Finally, in time slot #3, we train the model with DAISI-VQA. To save your time, you can first load the model obtained in Step 2 and then start the training.
-
-* For details about the training process in time slot #2, please see the "Calculation" section and the "Training" section in our [code for time slot #2](code/t2.ipynb); For details about the training process in time slot #3, please see the "Calculation" section and the "Training" section in our [code for time slot #3](code/t3.ipynb).
+* Finally, in time slot #3, we train the model with DAISI-VQA.
 
 ## Testing
 * After the training in time slot #1, we test the model on EndoVis17.
@@ -43,21 +41,16 @@
 
 * After the training in time slot #3, we test the model on EndoVis17 EndoVis18, and DAISI-VQA to see if the new model forgets the knowledge in EndoVis17 and EndoVis18.
 
-* For details about the testing  process in time slot #2, please see the "Testing" section in our [code for time slot #2](code/t2.ipynb); For details about the testing process in time slot #3, please see the "Testing" section in our [code for time slot #3](code/t3.ipynb).
-
 ## Citation
 If this repository is useful for your research, please cite:
 ```
-@ARTICLE{xxx,  
-  author={xxx},  
-  journal={xxx},   
+@inproceedings{chen2024llm,
   title={LLM-Assisted Multi-Teacher Continual Learning for Visual Question Answering in Robotic Surgery},
-  year={2023},  
-  volume={xx},  
-  number={x},  
-  pages={xxxx-xxxx},  
-  doi={xxx}
+  author={Chen, Kexin and Du, Yuyang and You, Tao and Islam, Mobarakol and Guo, Ziyu and Jin, Yueming and Chen, Guangyong and Heng, Pheng-Ann},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2024},
+  organization={IEEE}
 }
 ```
 ### Questions
-For further questions about the code or paper, please contact 'duyuyang01@gmail.com'
+For further questions about the code or the paper, please feel free to raise an issue.
