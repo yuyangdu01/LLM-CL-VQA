@@ -23,7 +23,7 @@
    DAISI-VQA: in total 545 QA pairs in the dataset. 80% of the data is used in the training set, while the rest 20% is used in the testing set.
 
 ## Environment & Setup
-* See the “Environment and Preparation” section of our [Tutorial in Jupyter Notebook](code/t2.ipynb).
+* See the environment and setups in our [Tutorial in Jupyter Notebook](t3_code/OurMethod_GitHub_OpenSource.ipynb).
   
 ## Training
 * We train the model under a continual learning (CL) framework.
