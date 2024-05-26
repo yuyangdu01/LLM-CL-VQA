@@ -8,7 +8,7 @@
   <img src="Figure/system.png"  width="1000"/>
 </p>
 
-* Our demo video
+* [Our demo video](https://youtu.be/sSCRLyY355c)
 [![](https://i.ytimg.com/vi/sSCRLyY355c/maxresdefault.jpg)](https://youtu.be/sSCRLyY355c "")
 
 
