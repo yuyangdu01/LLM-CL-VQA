@@ -3,8 +3,14 @@
 ## Introduction
 * The Pytorch implementation for our paper '[LLM-Assisted Multi-Teacher Continual Learning for Visual Question Answering in Robotic Surgery](https://arxiv.org/abs/2402.16664)', accepted by IEEE ICRA 2024.
 
+* Our system framework
 <p align="center">
   <img src="Figure/system.png"  width="1000"/>
+</p>
+
+* Our demo video
+<p align="center">
+  <img src="Figure/demo_video.mp4"  width="1000"/>
 </p>
 
 ## Data Preparation
