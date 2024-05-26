@@ -8,7 +8,9 @@
   <img src="Figure/system.png"  width="1000"/>
 </p>
 
-* [Our demo video](https://youtu.be/sSCRLyY355c)
+* Our demo video
+[![](https://i.ytimg.com/vi/sSCRLyY355c/maxresdefault.jpg)](https://youtu.be/sSCRLyY355c "")
+
 
 ## Data Preparation
 * For datasets, we use [EndoVis17](https://arxiv.org/abs/2305.11692), [EndoVis18](https://arxiv.org/abs/2206.11053), and [DAISI-VQA](DAISI_VQA). Note that DAISI-VQA is a new VQA dataset we build upon  [DAISI](https://arxiv.org/abs/2004.02809)
