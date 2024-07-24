@@ -1,3 +1,5 @@
-OurMethod-T2 (Pretrain_t2 for T3's training): https://drive.google.com/file/d/1RONttFwxx4zTmxT4-CIV7VEUr7qhaiAd/view?usp=sharing
+OurMethod-T1: https://drive.google.com/file/d/17kTZOZnW1eCQDm76ydDJxdFQtd2huk29/view?usp=sharing
 
-OurMethod-T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1FneeYayBztvKMKbfoAVaJt2z05iiv6SZ/view?usp=sharing
+OurMethod-T2: https://drive.google.com/file/d/1RONttFwxx4zTmxT4-CIV7VEUr7qhaiAd/view?usp=sharing
+
+OurMethod-T3: https://drive.google.com/file/d/1FneeYayBztvKMKbfoAVaJt2z05iiv6SZ/view?usp=sharing
