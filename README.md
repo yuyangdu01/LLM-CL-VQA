@@ -5,7 +5,7 @@
 
 * Our system framework
 <p align="center">
-  <img src="Figure/system.png"  width="1000"/>
+  <img src="Figure/main_figure.png"  width="1000"/>
 </p>
 
 * [Our demo video](https://youtu.be/sSCRLyY355c)
