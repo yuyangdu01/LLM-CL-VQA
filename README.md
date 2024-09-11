@@ -27,17 +27,21 @@
   
    DAISI-VQA: in total 545 QA pairs in the dataset. 80% of the data is used in the training set, while the rest 20% is used in the testing set.
 
+   LRSP-VQA: in total 1077 QA pairs in the dataset. 80% of the data is used in the training set, while the rest 20% is used in the testing set.
+
 ## Environment & Setup
-* See the environment and setups in our [Tutorial in Jupyter Notebook](t3_code/OurMethod_GitHub_OpenSource.ipynb).
+* See the environment and setups in our [Tutorial in Jupyter Notebook](t4_code/OurMethod_GitHub_OpenSource.ipynb).
   
 ## Training
 * We train the model under a continual learning (CL) framework.
 
 * Step 1: In time slot #1, we train the model with EndoVis17 dataset.
-  
-* Then in time slot #2, we train the model with EndoVis18.
 
-* Finally, in time slot #3, we train the model with DAISI-VQA.
+* Step 2: In time slot #2, we train the model with EndoVis18 dataset.
+  
+* Then in time slot #3, we train the model with DAISI-VQA.
+
+* Finally, in time slot #4, we train the model with LRSP-VQA.
 
 ## Testing
 * After the training in time slot #1, we test the model on EndoVis17.
@@ -45,6 +49,8 @@
 * After the training in time slot #2, we test the model on EndoVis17 and EndoVis18 to see if the new model forgets the knowledge in EndoVis17.
 
 * After the training in time slot #3, we test the model on EndoVis17 EndoVis18, and DAISI-VQA to see if the new model forgets the knowledge in EndoVis17 and EndoVis18.
+
+* Finally, after the training in time slot #4, we test the model on EndoVis17 EndoVis18, DAISI-VQA and LRSP-VQA to see if the new model forgets the knowledge in EndoVis17 and EndoVis18 and DAISI-VQA.
 
 ## Citation
 If this repository is useful for your research, please cite:
