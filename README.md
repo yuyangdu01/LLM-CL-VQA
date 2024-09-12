@@ -19,6 +19,10 @@
 
   The original DAISI dataset contains images and instructional texts of various surgical procedures on different organs. Each procedure consists of multiple images with corresponding instructional texts. We first clean the original DAISI dataset by deleting irrelevant images and confusing descriptions. We then generate QA pairs according to the text description for each image. Eventually, we obtained a new VQA dataset referred to as DAISI-VQA. Please see our paper for details about using in-context learning (ICL) for QA pair generation.
 
+* How we constructed the DAISI-VQA dataset:
+
+  The initial LRSP Dataset comprises 36 video demonstrations about robotic-assisted surgical operations, which were collected from YouTube and WebSurg. We first selected based on their in-video narration of the surgical procedures and the quality of the recording. The selected videos were divided into 150 shorter parts, with each one corresponding to one whole surgical procedure. Then we extracted frames from each video segment and obtained a total of 10,438 images. Subsequently, we chose some clean images with their counterparting textual transcriptions. Finally, we also use GPT-3.5 to generate a new VQA dataset.
+  
 * Training and test data split
 
    EndoVis17: a VQA dataset obtained from 5 surgical videos. We use 376 QA pairs in the training set and 96 QA pairs in the testing set.
