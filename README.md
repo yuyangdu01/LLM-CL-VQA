@@ -3,11 +3,6 @@
 ## Introduction
 * The Pytorch implementation for our paper '[LLM-Assisted Multi-Teacher Continual Learning for Visual Question Answering in Robotic Surgery](https://arxiv.org/abs/2402.16664)', accepted by IEEE ICRA 2024.
 
-* Our system framework
-<p align="center">
-  <img src="Figure/main_figure.png"  width="1000"/>
-</p>
-
 * [Our demo video](https://youtu.be/sSCRLyY355c)
 [![](https://i.ytimg.com/vi/sSCRLyY355c/maxresdefault.jpg)](https://youtu.be/sSCRLyY355c "")
 
@@ -46,7 +41,6 @@
 
 * After the training in time slot #3, we test the model on EndoVis17 EndoVis18, and DAISI-VQA to see if the new model forgets the knowledge in EndoVis17 and EndoVis18.
 
-* Finally, after the training in time slot #4, we test the model on EndoVis17 EndoVis18, DAISI-VQA to see if the new model forgets the knowledge in EndoVis17 and EndoVis18.
 
 ## Citation
 If this repository is useful for your research, please cite:
