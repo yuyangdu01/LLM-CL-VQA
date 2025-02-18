@@ -1,7 +1,1 @@
-Ablation-Scenario_One@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1JNFg7CHHXEkwZGl4gNKXD8lvKp1Ko5a3/view?usp=sharing
-
-Ablation-Scenario_Two@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1PObhPhdsv_rsAV0viftrU98VVFndqTet/view?usp=sharing
-
-Ablation-Scenario_Three@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1-rayWdcYjnpzDYq2HkamUcXwur1_YrNT/view?usp=sharing
-
-Ablation-Scenario_Four@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1UJOaMlciZp4aPcolPz5yE2aDybF0eEy8/view?usp=sharing
+https://drive.google.com/drive/folders/1oLDCDxl4G6oax8Zd6MX4FYZHQEM21hEa?usp=sharing
