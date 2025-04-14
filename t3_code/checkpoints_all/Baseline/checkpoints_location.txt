@@ -1,5 +1,3 @@
-Baseline-ER@T3 (Trained on DAISI_VQA): 
-
 Baseline-FT@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1V7U4n_4CyYn4NwI473WzG6GeskU0HqDn/view?usp=sharing
 
 Baseline-EWC++@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1nZyqWsT3G1fATYeiucp8CMsIDrvj6RO-/view?usp=sharing
