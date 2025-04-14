@@ -1,9 +1,9 @@
-Baseline-ER@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1jo91AguXroorLYIfeqgM2ALTVtJfAG7V/view?usp=sharing
+Baseline-ER@T3 (Trained on DAISI_VQA): 
 
-Baseline-FT@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/18HZBjrn8gKKDj7Gyrkeq7OZhOkXIyHWF/view?usp=sharing
+Baseline-FT@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1V7U4n_4CyYn4NwI473WzG6GeskU0HqDn/view?usp=sharing
 
-Baseline-EWC++@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/19D98wBM2rOMEPnArlxIAmKiBZnbojpUF/view?usp=sharing
+Baseline-EWC++@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1nZyqWsT3G1fATYeiucp8CMsIDrvj6RO-/view?usp=sharing
 
-Baseline-Online EWC@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1cH7YkyxRH0UoN5D1FwyDV1z1WAE4RYAe/view?usp=sharing
+Baseline-Online EWC@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1INV6FVYnLJE6MucSZ4RR25fFBIQeZwKA/view?usp=sharing
 
-Baseline-LwF@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1tUM3Msd6bhxyXsK5VrAUk6ZLlk-5-nbu/view?usp=sharing
+Baseline-LwF@T3 (Trained on DAISI_VQA): https://drive.google.com/file/d/1jGJo--lK3yQ7jkh8n6S8CNMYIuEz8fEm/view?usp=sharing
