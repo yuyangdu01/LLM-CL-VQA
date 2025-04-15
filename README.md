@@ -2,6 +2,7 @@
 
 ## Introduction
 * The Pytorch implementation for our paper '[LLM-Assisted Multi-Teacher Continual Learning for Visual Question Answering in Robotic Surgery](https://arxiv.org/abs/2402.16664)', accepted by IEEE ICRA 2024.
+* An extended version of this work has been submitted to IEEE Transactions on Medical Imaging (now under major reversion). See [here](https://github.com/yuyangdu01/LLM4VQA_CL_TMI) for implementation details of the extension.
 
 * [Our demo video](https://youtu.be/sSCRLyY355c)
 [![](https://i.ytimg.com/vi/sSCRLyY355c/maxresdefault.jpg)](https://youtu.be/sSCRLyY355c "")
